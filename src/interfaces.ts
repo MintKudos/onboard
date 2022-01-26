@@ -293,7 +293,7 @@ type LOGIN_TYPE =
   | 'weibo'
   | 'line'
   | 'jwt'
-  | 'email-password'
+  // | 'email-password'
   | 'passwordless'
 
 interface BaseLoginOptions {
